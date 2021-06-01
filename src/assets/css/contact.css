@@ -1,0 +1,183 @@
+.center-content{
+  width: 100%;
+  height:700px;
+  background-color: rgb(223, 219, 219);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box{
+  width: 70%;
+  height: min-content;
+  background-color: white;
+  position: relative;
+  top:-50px
+}
+.topbox{
+  background-color: black;
+  width: 100%;
+  height: 120px;
+}
+.middlebox{
+  width: 100%;
+  height: 170px;
+  /* background-color: blanchedalmond; */
+  border-bottom-style: groove;
+  border-bottom-color: rgba(187, 188, 189, 0.274);
+}
+.middlebox h3{
+  margin: 0 0;
+  position: relative;
+  top:60px;
+  left: 50px;
+  font-weight: 350;
+  font-size: 25px;
+}
+.middlebox p{
+  position: relative;
+  top:60px;
+  left: 50px;
+  font-weight: 200;
+  font-size: 14px;
+  color: lightslategray;
+}
+.contact{
+  background-color: rgba(237, 240, 241, 0.562);
+  width: 100%;
+  height: 460px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+
+}
+.contact h3{
+  margin: 0 0;
+  font-weight: 350;
+  position: relative;
+  top:0px;
+  left: 50px;
+  margin-top: 10px;
+}
+.main-contact{
+  margin: 10px auto;
+  /* background-color: lightslategray; */
+  height: 350px;
+  width: 960px;
+  position: relative;
+  top:10px;
+  display: flex;
+}
+.leftbox{
+  width: 60%;
+  height: 100%;
+  margin-right: 3%;
+}
+.rightbox{
+  background-color: rgba(255, 255, 255, 0);
+  width: 37%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.message{
+  width: 100%;
+  height: 10%;
+  /* background-color: burlywood; */
+  /* margin-top: 5%; */
+  margin-bottom: 5%;
+}
+.text{
+  width: 100%;
+  height: 80%;
+  /* background-color: cadetblue; */
+}
+.message input{
+  width: 150px;
+  height: 30px;
+  background-color: rgba(223, 223, 223, 0.432);
+  /* color: rgb(221, 217, 217); */
+  border: 1px;
+  border-style: groove;
+  border-color: rgba(218, 215, 215, 0.623);
+  padding-left: 10px;
+  margin-right: 10px;
+  border-radius: 3px;
+  outline: none;
+}
+.message input::-webkit-input-placeholder{
+  color: rgba(161, 160, 160, 0.877);
+}
+.text textarea{
+  border-radius: 3px;
+  outline: none;
+  background-color: rgba(223, 223, 223, 0.432);
+  /* color: rgb(221, 217, 217); */
+  border: 1px;
+  border-style: groove;
+  border-color: rgba(218, 215, 215, 0.623);
+  color: rgba(161, 160, 160, 0.877);
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 14px;
+  font-weight:100 ;
+  width: 100%;
+  height: 80%;
+  font-family: Arial, Helvetica, sans-serif;
+  resize: none;
+}
+.text button{
+  width: 170px;
+  height: 35px;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(to top,#57250e,#996a2d);
+  border: 1px;
+  margin-top: 15px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+footer{
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footerbox{
+  width: 85%;
+  height: 80px;
+  /* background-color: rgb(109, 89, 89); */
+  display: flex;
+  align-items: center;
+}
+.icon{
+  width: 70px;
+  height: 70px;
+  /* background-color: pink; */
+}
+.icon img{
+  width: 100%;
+  height: 100%;
+}
+.our-message{
+  width: 500px;
+  height: 100%;
+  /* background-color: pink; */
+  margin-left: 20px;
+}
+.our-message h5{
+  margin:5px 0;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.877);
+  font-weight: 300;
+}
+.our-message p{
+  margin:5px 0;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.877);
+}

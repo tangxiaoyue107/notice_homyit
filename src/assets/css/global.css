@@ -1,0 +1,29 @@
+html {
+    font-size: calc(0.75vw + 8px);
+    font-family: "微软雅黑";
+}
+  
+body{
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-y:scroll;
+    overflow-x: hidden;
+}
+  
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+  
+li{
+    list-style: none;
+}
+  
+a{
+    text-decoration: none;
+}
+button{
+    outline: none;
+}

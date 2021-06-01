@@ -1,0 +1,384 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    width: 100%;
+}
+
+#leader {
+    height: 500px;
+}
+
+.word {
+    width: 60%;
+    margin: 3rem auto 2rem;
+    font-size: 12px;
+    letter-spacing: .5em;
+    /* margin: 1rem 1rem 3rem; */
+}
+
+
+/*活动领导人*/
+
+#top {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.slider-top>p {
+    height: 80px;
+    font-size: 14px;
+    line-height: 2rem;
+}
+
+.slider-top .nots {
+    width: 100px;
+    height: 100px;
+}
+
+
+/*学生会活动*/
+
+#xshActivity {
+    width: 60%;
+    height: 550px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.xshBox {
+    width: 40%;
+    height: 170px;
+    font-size: 10px;
+    display: inline-block;
+    position: relative;
+    margin: 1.5rem .5rem 1.5rem 2.5rem;
+    padding: 1rem 0;
+    border: 1.25px solid rgb(219, 219, 219);
+}
+
+.xshBox img {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 30%;
+    left: -12%;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.pAll {
+    padding: 1rem 2rem 1rem 4rem;
+    display: inline-block;
+    width: 60%;
+}
+
+.pAll>p {
+    height: 90px;
+}
+
+.xshText {
+    line-height: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+
+/* 社团活动 */
+
+#stActivity {
+    width: 55%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#stActivity>.rslides {
+    height: 270px;
+}
+
+
+/*制作消息框上面的空心三角*/
+
+.stimg {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+#stBox {
+    width: 100%;
+    height: 150px;
+    font-size: 12px;
+    margin: 1.5rem 0;
+    padding: 1rem;
+    border: 1.25px solid rgb(219, 219, 219);
+    box-sizing: border-box;
+}
+
+#stBox:before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    position: relative;
+    top: -36px;
+    left: 48%;
+    border-bottom: 19px solid rgb(219, 219, 219);
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+}
+
+#stBox:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    position: relative;
+    top: -141%;
+    left: 48.2%;
+    border-bottom: 19px solid white;
+    border-left: 17px solid transparent;
+    border-right: 17px solid transparent;
+}
+
+#stBox>p {
+    line-height: 1.5rem;
+}
+
+h3 {
+    line-height: 2.5rem;
+}
+
+
+/* 党站活动 */
+
+#dzActivity {
+    background-color: rgb(43, 43, 43);
+    color: white;
+    width: 100%;
+    height: 500px;
+}
+
+#dzActivity>.rslides {
+    height: 400px;
+}
+
+.dzslide {
+    display: inline-block;
+    width: 30%;
+    margin: 3rem 0 1rem 10rem;
+}
+
+.dzBox {
+    margin: 1rem 0 2rem;
+}
+
+.dzBox>img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 1rem;
+    vertical-align: top;
+}
+
+.dzslide>img {
+    width: 150px;
+    height: 120px;
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.dzpAll {
+    font-size: 12px;
+    display: inline-block;
+    width: 60%;
+    line-height: 1.5rem;
+}
+
+.dzpAll>hr {
+    margin: 1rem 0;
+    border: none;
+    width: 40px;
+    height: 2px;
+    background-color: #EFB013;
+}
+
+
+/* 科创平台活动 */
+
+#kcptActivity {
+    width: 60%;
+    height: 480px;
+    margin: 0 auto;
+    font-size: 0;
+    overflow: hidden;
+}
+
+.kcptBox {
+    width: 50%;
+    display: inline-block;
+    padding: .5rem;
+    box-sizing: border-box;
+}
+
+.kcptBox>img {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 1rem;
+}
+
+.kcptpAll {
+    width: 70%;
+    height: 170px;
+    border: 1.25px solid rgb(219, 219, 219);
+    display: inline-block;
+    padding: 1rem .5rem 1rem 2rem;
+    font-size: 12px;
+}
+
+.kcptpAll>p {
+    height: 125px;
+}
+
+.kcptright {
+    /* display: inline-block; */
+    width: 40%;
+    float: right;
+}
+
+.kcptpAll>span {
+    /* line-height: 1.5rem; */
+    display: inline-block;
+    padding: .25rem;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+}
+
+.pcolor {
+    color: rgb(175, 216, 79);
+}
+
+
+/*底部样式*/
+
+footer {
+    background-color: rgb(43, 43, 43);
+    height: 250px;
+    color: #858585;
+    font-size: 12px;
+    padding: 4rem 8rem;
+}
+
+footer>div {
+    display: inline-block;
+}
+
+footer h4 {
+    color: white;
+    cursor: pointer;
+}
+
+footer hr {
+    width: 30px;
+    height: 2.5px;
+    border: none;
+    background-color: red;
+    margin: 1rem 0;
+}
+
+footer h4:hover {
+    color: red;
+}
+
+#school {
+    width: 30%;
+    vertical-align: top;
+}
+
+#school>p {
+    padding: 1.5rem 0 0;
+    margin-right: 2rem;
+}
+
+#school>img {
+    width: 80%;
+}
+
+#subject {
+    width: 8%;
+    vertical-align: top;
+    padding: 0 1.5rem;
+    border-right: 1px solid #585252;
+    border-left: 1px solid #585252;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+
+.subs {
+    position: absolute;
+    left: 1.5rem;
+    top: 3rem;
+    right: -17px;
+    bottom: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    /*向右移动了17个像素，刚好等于滚动条的宽度*/
+}
+
+.subs p {
+    line-height: 1.5rem;
+    cursor: pointer;
+}
+
+.subs p:hover {
+    color: red;
+}
+
+#twitter {
+    width: 35%;
+    vertical-align: top;
+    margin: 0 1rem;
+    height: 250px;
+    border-right: 1px solid #585252;
+}
+
+.twall div {
+    margin: 1rem 0;
+}
+
+.twall img {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.twall p {
+    display: inline-block;
+    width: 80%;
+}
+
+#contact {
+    width: 15%;
+    vertical-align: top;
+    /*使所有的div顶部对齐*/
+}
+
+#imgBox {
+    margin: 3rem 0;
+}
+
+#imgBox>img {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    padding: .25rem;
+    background-color: #414141;
+}
